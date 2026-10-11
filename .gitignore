@@ -1,0 +1,22 @@
+# Local secrets and authenticated sessions
+.env
+.env.*
+!.env.example
+*.session
+*.session-*
+connections.json
+config.json
+downloads_state*.json
+migration_complete.json
+self_test.json
+restart_test.json
+# Build and runtime output
+.venv*/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.exe
+ui-check*/
+td-tests-*/
+*.log
